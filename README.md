@@ -1,1 +1,1 @@
-#This is my second assigment
+#This is my second assigment. I am practicing again how to use git and github, just for fun 
