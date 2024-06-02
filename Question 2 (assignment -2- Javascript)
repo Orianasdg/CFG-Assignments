@@ -1,0 +1,29 @@
+# Question 2
+
+##2.1
+unshift(), is a built-in JavaScript array method that adds one or more elements to the beginning of an array and returns the new length of the array. This method modifies the original array.
+shift(), is a built-in JavaScript array method that removes the first element from an array and returns that removed element. This method modifies the original array by reducing its length.
+split(), is a built-in JavaScript string method used to divide a string into an array of substrings, based on a specified separator. The method returns the new array without modifying the original string.
+
+##2.2
+object methods, object methods are functions that are defined as properties of an object.
+- Using the topic of “Programming Languages”, create a new object and object
+methods:
+
+// Object representing a programming language
+let programmingLanguage = {
+    // Method to display a greeting
+    greet: function() {
+        console.log("Hello, I'm a programming language!");
+    }
+};
+
+// Calling the object method
+programmingLanguage.greet();
+
+
+##2.3
+onmouseover event, is a type of event in JavaScript that occurs when the mouse pointer moves over an element. It is triggered when the mouse cursor enters the boundaries of the specified element.
+two other DOM events:
+  1. onclick Event. The onclick event is triggered when an element is clicked by the user.
+  2. onkeydown Event. The onkeydown event is triggered when a key is pressed down while the focus is on an element.
