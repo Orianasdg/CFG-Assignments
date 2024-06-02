@@ -1,0 +1,14 @@
+<div class="title-container"> <!-- Main heading for the web page -->
+    <h1>Favorite Music List</h1> 
+</div>
+
+<div>
+    <label for="songTitle">Song Title:</label> <!-- This label and the following input will allow the user to enter the title of the songs -->
+    <input type="text" id="songTitle" placeholder="Enter song title"> 
+    <label for="artist">Artist:</label> <!-- This label and the following input will allow the user to enter the artist's name  -->
+    <input type="text" id="artist" placeholder="Enter artist name">
+    <label for="rating">Rating:</label> <!-- This label and the following input will allow the user to enter the rating for the song added, this rating is from 1 to 5 -->
+    <input type="number" id="rating" min="1" max="5" placeholder="Enter rating (1-5)">
+    <button id="addSongBtn">Add Song</button> <!-- This button is to add the song into the list -->
+</div>
+<ul id="songsList"></ul> <!-- This is to display the list of songs -->

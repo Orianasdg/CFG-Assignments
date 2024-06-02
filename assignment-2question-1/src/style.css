@@ -1,0 +1,81 @@
+
+
+
+body { /*Here I am adding defining different styling characteristics for the body, such as the font of the page and the backgrounf colour*/
+    font-family: Arial, sans-serif; 
+    background-color: #aaf0d1; /*mint colour*/
+    margin: 0;
+    padding: 0;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-container { /* I am sedingning a container box for the title of my web site*/
+    background-color: #d1b0ff; /*lavander colour */
+    padding: 10px; /* adding space around the title */
+    border-radius: 5px; /* adding border arround the corners */
+}
+
+h1 {
+    margin-top: 20px;
+    color: #333; /* Keep the text color as dark gray */
+}
+
+div { /*Here I am adding defining different styling characteristics for the div, such as colour, merging, padding, shadow in the corners,...*/
+    margin: 20px 0;
+    padding: 10px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+label { /*I am adding margin to the label for spacing*/
+    margin: 5px 0;
+}
+
+input { 
+    margin: 5px 0 10px 0;
+    padding: 8px;
+    border: 1px solid #ccc; /*light gray*/
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+}
+
+button {
+    padding: 10px 15px;
+    color: white;
+    background-color: #5cb85c; /*green*/
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; /*This changes the coursor to a pointer when moting over the button, so the user can know it is clickable*/
+    font-size: 16px;
+}
+
+button:hover { /*This changes the colour of the button to a darker green when the coursor is over the button, indicating that the button is interactive*/
+    background-color: #4cae4c;/*darker green*/
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    margin: 5px 0;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li span {
+    margin-right: 10px;
+}
